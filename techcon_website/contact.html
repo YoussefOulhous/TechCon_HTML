@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/acf30e5f37.js" crossorigin="anonymous"></script>
+    <title>Contact Us</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <a href="about.html">About</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="register.html">Register</a>
+            <a href="index.html">HomePage</a>
+
+        </nav>
+        <style>
+            header {
+                display: flex;
+                justify-content: space-between;
+                font-size: 32px;
+            }
+            header nav {
+                margin-top: 40px;
+            }
+        </style>
+    </header>
+
+    <main>
+        <section>           
+            <a href="mailto:email@example.com" id="mail"> <h2>Email Address:</h2> </a>
+<br>
+        <div id="icons">
+            <a href="https://x.com/"> <i class="fa-brands fa-twitter"></i> </a>
+            <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i> </a>
+            <a href="https://www.facebook.com/" target="_blank"> <i class="fa-brands fa-facebook"></i> </a>
+        </div>
+
+        <div id="maps">
+            <iframe src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=52.70967533219885, -8.020019531250002&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" width="50%" height="300" style="border:1px solid black;"></iframe>
+        </div>
+<br>
+        <div id="inputs">
+            <form action="">
+                <div id="in1">
+                    <label for="name">Name:</label>
+                    <input type="text" id ="name">
+                </div>
+
+                <div id="in2">
+                    <label for="email">Email:</label>
+                    <input type="email">
+                </div>
+
+                <div id="in3">
+                    <label for="message">Message:</label>
+                    <input type="text" width="30%" height="30%" >
+                </div>
+            </form>
+                <br>
+                
+                <form>
+                    <button id="b1">Submit</button>
+                </form>
+        </div>
+
+        <style>
+            section {
+                font-size:22px ;
+                padding: 100px;
+            }
+            #icons{
+                display: flex;
+                gap: 200px;
+            }
+            #icons i{
+                font-size: 32px;
+                color: red;
+            }
+            #maps{
+                margin-top: 30px;
+                margin-left: 30px;
+            }
+            #inputs form input{
+                width:250px ;
+                height:30px ;
+                font-size: 20px;
+
+            }
+            #inputs form {
+                display: flex;
+                justify-content: space-between;
+                
+            }
+
+            #b1{
+                width: 200px;
+                height: 50px;
+                font-size: 30px;
+                margin-top: 50px;
+            }
+
+        </style>
+
+
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TechCon. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registerPage</title>
+</head>
+<body>
+    <header>
+        <h1>Register for TechCon 2024</h1>
+        <nav>
+            <a href="about.html">About</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="index.html">HomePage</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <style>
+            header {
+                display: flex;
+                justify-content: space-between;
+                font-size: 32px;
+            }
+            header nav {
+                margin-top: 40px;
+            }
+        </style>
+    </header>
+    <main>
+        <form action="">
+            <div id="name">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" required>
+            </div>
+<br>
+            <div id="email">
+                <label for="email">E-mail:</label>
+                <input type="email" required id="email">
+            </div>
+<br>
+            <div id="password">
+                <label for="password">Password:</label>
+                <input type="password" id="password" minlength="8" maxlength="16">
+            </div>
+<br>
+            <div id="check">              
+                <input type="checkbox" id="check" required>
+                <label for="check">Checkbox for Terms and Conditions</label>              
+            </div>
+<br>
+            <div id="submit">
+                <button>Submit</button>
+            </div>
+        </form>
+    </main>
+    <style>
+        main {
+            width: 200px;
+            font-size: 22px;
+            padding: 30px;
+            margin-left: 800px;
+            border: 1px solid rgba(0, 0, 0, 0.416);
+        }
+        main button{
+            width: 100px;
+            height: 50px;
+            margin-left: 20px;
+        }
+    </style>
+<hr>
+    <footer>
+        <p>&copy; 2024 TechCon. All rights reserved.</p>
+    </footer>
+</body>
+</html>
